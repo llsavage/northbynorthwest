@@ -1,0 +1,100 @@
+<!doctype HTML>
+<html>
+  <head>
+    <title>Extending Worlds</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+   <!-- <script type="text/javascript" src="jquery.min.js"></script> 
+     <script type="text/javascript" src="script.js"></script>-->
+<script>
+var sweetTooth = new Audio();
+var noLie = new Audio();
+var MrGeorgeKaplan = new Audio();
+var UNLester = new Audio();
+var thinkThin = new Audio();
+var greyhoundBus = new Audio();
+sweetTooth.src = "Audio/SomethingForYourSweetTooth.mp3";
+MrGeorgeKaplan.src = "Audio/KaplanTravelItinerary.mp3"
+noLie.src = "Audio/NoSuchThingAsALie.mp3";
+UNLester.src = "Audio/TownsendofUNIPO.mp3";
+thinkThin.src = "Audio/ThinkThin.mp3";
+greyhoundBus.src = "Audio/IWroteitAllDown.mp3";
+
+function PlaySound() {
+    sweetTooth.play();
+}
+function PlaySound1() {
+    MrGeorgeKaplan.play();
+}
+function PlaySound2() {
+    noLie.play();
+}
+function PlaySound3() {
+    UNLester.play();
+}
+function PlaySound4() {
+    thinkThin.play();
+}
+function PlaySound5() {
+    greyhoundBus.play();
+}
+</script>
+  </head>
+  <body>
+
+<div id = "container">
+  
+ <div class="prop">
+    <audio id="sweetTooth"></audio>
+    <input type="image" src="SomethingforYourSweetTooth.png"  id="Chocolates" onclick="PlaySound()"/>
+    </div>
+
+<div class ="prop3" >
+    <audio id="thin"></audio>
+    <input type="image" src="ThinkThin.png"  id="thinkThin" onclick="PlaySound4()"/> 
+ </div>
+
+ <div class ="prop4" >
+ <audio id="greyhoundBus"></audio>
+    <input type="image" src="GreyhoundBus.png"  id="wroteIt" onclick="PlaySound5()"/> 
+ </div>
+
+  <div class="prop1B">
+    <audio id="MrGeorgeKaplan"></audio>
+    <input type="image" src="KaplanItinerary.png"  id="itinerary" onclick="PlaySound1()"/>
+  </div>
+
+  <div class="spacer"></div>
+
+  <div class="prop1A">
+    <audio id="noLie"></audio>
+    <input type="image" src="NoSuchThingasaLie.png"  id="AdBible" onclick="PlaySound2()"/>
+  </div>
+
+  
+<div class ="prop2" >
+ <audio id="UNLester"></audio>
+    <input type="image" src="ForLesterTownsend.png"  id="UNnote" onclick="PlaySound3()"/> 
+ </div>
+
+
+
+
+  <div class="shape"></div>
+ 
+  <div class="shape" id="circle"></div>
+
+  <div class="shape"></div>
+  
+  <div class="shape" id="circle"></div>
+
+  <div class="shape"></div>
+
+  <div class="shape" id="circle"></div>
+  
+
+
+
+</div>
+
+  </body>
+</html>
