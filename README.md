@@ -1,1 +1,2 @@
 # northbynorthwest
+permalink: /index.html
